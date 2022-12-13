@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="content-wrapper">
+        <div id="content-container">
+            <h2>Prime Number Sum Calculator</h2>
+            <p>Please input the range [a, b]: </p>
+            <form id="calc-form">
+                <label for="range-a">Integer a:</label>
+                <input type="text" id="range-a" placeholder="Integer a">
+                <label for="range-b">Integer b:</label>
+                <input type="text" id="range-b" placeholder="Integer b">
+                <button id="calc-btn" type="submit">Calculate</button>
+            </form>
+            <div id="error-msg" class="hide">Invalid input</div>
+            <div id="res-container" class="hide">
+                <p>The sum of all prime numbers from a to b is: </p>
+                <div id="res">12345</div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
