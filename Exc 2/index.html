@@ -5,8 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div id="content-wrapper">
+        <div id="content-container">
+            <h2>Triangle Generator</h2>
+            <p>Please input a number in range [1, 10]: </p>
+            <form id="calc-form">
+                <label for="input">Number of rows:</label>
+                <input type="text" id="input" placeholder="An integer from 1-10">
+                <button id="calc-btn" type="submit">Generate</button>
+            </form>
+            <div id="error-msg" class="hide">Invalid input</div>
+            <div id="res-container" class="hide">
+                <div id="res">12345</div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
 </body>
 </html>

@@ -36,7 +36,6 @@ const checkInput = () => {
         msg.classList.add('hide');
         resHolder.innerHTML = calcSum(Number(inputA.value), Number(inputB.value));
         resCon.classList.remove('hide');
-        console.log
     }
 }
 
